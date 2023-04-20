@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Builder
 @ToString
 @Entity
-public class Citas {
+public class Cita {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
