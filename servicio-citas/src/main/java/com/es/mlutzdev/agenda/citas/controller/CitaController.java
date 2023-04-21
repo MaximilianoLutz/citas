@@ -26,7 +26,7 @@ public class CitaController {
 
         try{
             Cita  citaGuardada = citasService.guardarCita(cita);
-            return ResponseEntity.ok().body(cita);
+            return ResponseEntity.ok().body(citaGuardada);
 
         }catch (Exception ex){
             logger.error(ex.getMessage());
